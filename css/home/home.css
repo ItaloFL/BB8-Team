@@ -1,0 +1,31 @@
+.home-bg {
+  background: url(../../img/Dots\ 8px.svg);
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.home h1 {
+  font-size: 100px;
+  width: 800px;
+  color: #F8982C;
+  margin-bottom: 30px;
+}
+
+.home p {
+  font-size: 30px;
+  color: #7C7C7C;
+  width: 600px;
+  line-height: 1.3em;
+  margin-bottom: 30px;
+}
+
+.home-conteudo a {
+  background-color: #FDE5CA;
+  padding: 2px 12px;
+  font-size: 35px;
+  color: #F8982C;
+  border-radius: 4px;
+}

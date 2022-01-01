@@ -1,0 +1,14 @@
+/* Global Styles */
+@import url(global/global.css);
+
+/* Header Styles */
+@import url(header/header.css);
+
+/* Home Styles */
+@import url(home/home.css);
+
+/* Companies Styles */
+@import url(companies/companies.css);
+
+/* Agency Styles */
+@import url(agency/agency.css);
