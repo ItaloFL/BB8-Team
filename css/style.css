@@ -1,8 +1,7 @@
 /* Global Styles */
 @import url(global/global.css);
-
-/* Header Styles */
-@import url(header/header.css);
+@import url(global/header.css);
+@import url(global/footer.css);
 
 /* Home Styles */
 @import url(home/home.css);
@@ -12,3 +11,6 @@
 
 /* Agency Styles */
 @import url(agency/agency.css);
+
+/* Feedback Styles */
+@import url(feedback/feedback.css);
