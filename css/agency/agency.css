@@ -7,7 +7,7 @@
   margin-bottom: 60px;
 }
 
-.agency-list{
+.agency-list {
   list-style: none;
   display: flex;
   gap: 40px;
@@ -64,4 +64,30 @@
 .agency-list p {
   font-size: 20px;
   color: #989898;
+}
+
+@media (max-width: 1200px) {
+  .agency-list {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .agency h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .agency-title1 {
+    font-size: 24px;
+  }
+  
+  .agency-title2 {
+    font-size: 24px;
+  }
+  
+  .agency-title3 {
+    font-size: 24px;
+  }
 }

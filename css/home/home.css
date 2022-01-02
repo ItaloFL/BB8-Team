@@ -9,7 +9,6 @@
 
 .home h1 {
   font-size: 100px;
-  width: 800px;
   color: #F8982C;
   margin-bottom: 30px;
 }
@@ -17,7 +16,6 @@
 .home p {
   font-size: 30px;
   color: #7C7C7C;
-  width: 600px;
   line-height: 1.3em;
   margin-bottom: 30px;
 }
@@ -28,4 +26,56 @@
   font-size: 35px;
   color: #F8982C;
   border-radius: 4px;
+}
+
+.home img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+@media (max-width: 1400px){
+  .home h1 {
+    font-size: 80px;
+  }
+
+  .home p {
+    font-size: 20px;
+  }
+
+  .home-conteudo a {
+    font-size: 25px;
+  }
+
+  .home img {
+    object-fit: cover;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .home img {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .home {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .home h1 {
+    font-size: 40px;
+  }
+
+  .home p {
+    font-size: 18px;
+  }
+
+  .home-conteudo a {
+    font-size: 20px;
+  }
 }
