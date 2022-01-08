@@ -8,7 +8,7 @@
 - [Ferramentas](#-ferramentas)
 - [Developer](#-developer)
 
-----
+---
 
 # 🎉 Preview
 
