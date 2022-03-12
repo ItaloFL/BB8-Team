@@ -1,0 +1,53 @@
+
+
+.companies-bg {
+  background: url(../../img/Dots\ 8px.svg) #E8E8E8;
+}
+
+.companies-conteudo {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.companies-conteudo h2 {
+  font-size: 60px;
+  color: #515151;
+  margin-bottom: 30px;
+}
+
+.companies-conteudo p {
+  font-size: 20px;
+  color: #515151;
+  margin-bottom: 30px;
+}
+
+.companies-logos {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-companies {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+@media (max-width: 900px) {
+  .companies-conteudo h2 {
+    font-size: 40px;
+  }
+
+  .companies-conteudo p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .companies-logos {
+    width: 100%;
+    object-fit: cover;
+    flex-wrap: wrap;
+  }
+}

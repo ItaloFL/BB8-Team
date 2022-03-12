@@ -1,0 +1,45 @@
+
+
+
+.feedback h2 {
+  font-size: 60px;
+  color: #F8982C;
+  margin-bottom: 90px;
+}
+
+.feedback-list {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+.feedback-item {
+  border: 1px solid #FFA540;
+  background-color: #FFFCF8;
+  padding: 60px 20px;
+  border-radius: 4px;
+}
+
+.feedback-item blockquote {
+  color: #3B3B3B;
+  margin-bottom: 30px;
+}
+
+.feedback-item cite {
+  font-size: 25px;
+  color: #3B3B3B;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1200px) {
+  .feedback-list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 900px){
+  .feedback h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+}
